@@ -1,0 +1,155 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #00796b;
+    padding: 15px;
+    color: white;
+    margin-top: 50px;
+}
+
+nav .logo h2 {
+    margin: 0;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .nav-links li {
+    padding: 10px;
+}
+
+nav .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .nav-links li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #009688;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #009688;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero .btn:hover {
+    background-color: #00796b;
+    color: white;
+}
+
+/* Section Styling */
+.section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.materials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.material {
+    background-color: #f0f0f0;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.material h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.download-btn {
+    padding: 8px 15px;
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.download-btn:hover {
+    background-color: #004d40;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b;
+    color: white;
+    margin-top: 20px;
+}
+/* Apply to the body to center content */
+
+
+/* Container for the image */
+.image-container {
+    padding: 20px;              /* Space around the image */
+    background-color: #fff;     /* Optional background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    margin-top: 50px;  
+    align-items: center;         /* Space from the top */
+}
+
+/* Styling the image */
+img {
+    max-width: 100%;  /* Ensures the image is responsive */
+    height: auto;     /* Keeps the aspect ratio intact */
+    display: block;
+    align-items: center;
+    margin-top: 0%;
+    margin-left: 0px; 
+    margin-right: 0px;
+    margin-bottom: 0%;
+    
+}
